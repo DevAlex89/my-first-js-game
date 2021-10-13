@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+  left: 35%;
+  top:20%;
+}
+.container {
+  position:relative;
+  height:100vh;
+  width:auto;
+  background-color: #c19277;
+  overflow: hidden;
+}
+h3{
+  left:45%;
+  position: absolute;
+  font-size: 40px;
+}
+p {
+  position:absolute;
+  left:40%;
+  top:90%;
+  font-size: 20px;
+}
+h3 , p {
+  color:#e3d0b9;
+}
